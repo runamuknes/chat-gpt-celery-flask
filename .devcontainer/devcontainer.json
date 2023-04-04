@@ -1,0 +1,9 @@
+{
+	"name": "Chatot",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"postCreateCommand": "Phew, it works.",
+	"postStartCommand": "bash ./start.sh"
+}
